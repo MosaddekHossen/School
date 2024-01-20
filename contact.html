@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="bg-[#FFFFE9]">
+    <!-- Header part -->
+    <header>
+        <div class="navbar">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
+                        <li><a href="./index.html" class="text-[18px] font-medium text-black">Home</a></li>
+                        <li><a href="#" class="text-[18px] font-medium text-black">About Us</a></li>
+                        <li><a href="./contact.html" class="text-[18px] font-medium text-black">Contact</a></li>
+                    </ul>
+                </div>
+                <a class="btn md:hidden btn-ghost text-xl px-0">School</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a href="./index.html" class="text-[18px] font-medium text-black">Home</a></li>
+                    <li><a href="#" class="text-[18px] font-medium text-black">About Us</a></li>
+                    <li><a href="./contact.html" class="text-[18px] font-medium text-black">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+            </div>
+        </div>
+    </header>
+    <!-- Main part -->
+    <main class="bg-red-700">
+        <!-- Contact section -->
+        <section>
+            <section class="bg-[#FFFFE9]">
+                <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+                    <h2 class="mb-5 md:text-[86px] serif text-5xl tracking-tight font-extrabold text-center text-black">
+                        Contact Us</h2>
+                    <p class="mb-8 lg:mb-16 font-semibold md:text-[24px] text-center text-[18px]">Got a
+                        technical issue? Want to send feedback about a beta feature? Need details about our Business
+                        plan? Let us know.</p>
+                    <form action="#" class="space-y-8">
+                        <div>
+                            <label for="email"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
+                                email</label>
+                            <input type="email" id="email"
+                                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                placeholder="name@flowbite.com" required>
+                        </div>
+                        <div>
+                            <label for="subject"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                            <input type="text" id="subject"
+                                class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                placeholder="Let us know how we can help you" required>
+                        </div>
+                        <div class="sm:col-span-2">
+                            <label for="message"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your
+                                message</label>
+                            <textarea id="message" rows="6"
+                                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                placeholder="Leave a comment..."></textarea>
+                        </div>
+                        <button type="submit"
+                            class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send
+                            message</button>
+                    </form>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
